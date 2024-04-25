@@ -1,6 +1,6 @@
 {
-	"name": "@sveltekit-board/mysql-auth",
-	"version": "0.1.0",
+	"name": "@sveltekit-board/authenticator",
+	"version": "0.1.1",
 	"description": "auth library for sveltekit using mysql",
 	"author": {
 		"name": "hotsixman",
