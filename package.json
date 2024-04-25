@@ -7,7 +7,12 @@
 		"email": "hotsixman05@gmail.com",
 		"url": "https://github.com/hotsixman"
 	},
-	"keywords": ["svelte", "sveltekit", "auth", "mysql"],
+	"keywords": [
+		"svelte",
+		"sveltekit",
+		"auth",
+		"mysql"
+	],
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build && npm run package",
@@ -50,5 +55,8 @@
 	},
 	"svelte": "./dist/index.js",
 	"types": "./dist/index.d.ts",
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"@sveltekit-board/db": "^1.0.0"
+	}
 }
